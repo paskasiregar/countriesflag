@@ -11,7 +11,7 @@ export default async function Home() {
 
   return (
     <main className="max-w-2xl m-auto py-2 space-y-4">
-      <h1 className="text-4xl font-bold">All the countries</h1>
+      <h1 className="text-4xl font-bold ">All the countries</h1>
       <div className="space-y-4 grid grid-cols-2">
         {data.map((item) => {
           return <CountryCard key={item._id} item={item} />;

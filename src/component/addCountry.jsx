@@ -40,7 +40,7 @@ export const AddCountry = () => {
         value={flag}
         onChange={(e) => setFlag(e.target.value)}
       />
-      <button onClick={handleAddNewCountry}>Add New</button>
+      <button onClick={handleAddNewCountry}> + Add New</button>
     </div>
   );
 };
